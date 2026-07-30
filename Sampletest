@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Recap Beginner</title>
+</head>
+
+<body>
+
+    <!-- 1. Headings -->
+    <h1>Welcome to My Persoanal Page<h1/>
+    <h2>This is a subheading</h2>
+
+
+  
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Dianne</td>
+            <td>BSIT</td>
+        </tr>
+    </table>
+
+    <!-- 7. Forms -->
+    <h3>Simple Form:</h3>
+    <form action="process.php" method="post">
+        Name: <input type="text" name="name"><br>
+        Age: <input type="number" name="age"><br>
+        <input type="submit" value="Submit">
+    </form>
+<style>
+body {
+  background-color: lightblue;
+}
+<style/>
+
+</body>
+</html>
